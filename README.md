@@ -1,6 +1,6 @@
 # HCC condition classifier
 
-Classifies 6 HCC, gender, age, and  RAF score based on frontal chest x-rays
+Classifies 6 HCC, gender, age, and  RAF score based on frontal chest radiographs
 
 Data directory structure set up as follows:
 * raf_data
