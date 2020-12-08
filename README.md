@@ -1,4 +1,4 @@
-# RAF condition classifier
+# HCC condition classifier
 
 Classifies 6 HCC, gender, age, and  RAF score based on frontal chest x-rays
 
