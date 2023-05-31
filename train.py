@@ -19,7 +19,7 @@ from utils.checkpoints import *
 from utils.metric import auroc_score
 
 device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
-# conditions = ['gender', 'HCC18', 'HCC22', 'HCC40', 'HCC48', 'HCC59', 'HCC85', 'HCC96', 'HCC108', 'HCC111', 'HCC138', 'age MSE', 'raf MSE']
+# conditions = ['gender', 'HCC18', 'HCC22', 'HCC40', 'HCC48', 'HCC59', 'HCC85', 'HCC96', 'HCC108', 'HCC111', 'HCC138', 'age MSE', 'raf MSE', 'BMI MSE','A1C MSE']
 conditions = ['gender', 'HCC18', 'HCC22', 'HCC85', 'HCC96', 'HCC108', 'HCC111', 'age MSE', 'raf MSE']
 num_classes = len(conditions) - 2
 
